@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.family'] = 'Yu Gothic'
 
 # CSVファイルのパス
-csv_path1 = "C:/Users/asupa/Downloads/vscodeyou/h.html/2023061.CSV"
-csv_path2 = "C:/Users/asupa/Downloads/vscodeyou/h.html/2023070.CSV"
+csv_path1 = "2023061.CSV"
+csv_path2 = "2023070.CSV"
 
 # CSVファイルの読み込み
 df = pd.read_csv(csv_path1, encoding="shift-jis")
